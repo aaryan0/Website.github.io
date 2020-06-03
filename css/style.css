@@ -1,0 +1,329 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+i {
+    color: rgb(50, 170, 218);
+}
+
+.cardbody li {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3)), url('../images/laptop-1205256_1920\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+    position: relative;
+    /* opacity: 0.5; */
+    /* z-index: -1; */
+}
+
+.header:before {
+    content: "";
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    position: absolute;
+    /* opacity: .6; */
+    /* background: linear-gradient(to right, #le5799 0%, #3ccdbb 0%, #16c9f6 100%); */
+}
+
+.nav-item a {
+    text-shadow: 2px, 3px, blue !important;
+    font-weight: bold;
+}
+
+.header-section {
+    width: 100%;
+    text-align: center;
+    /* justify-content: center; */
+    color: white;
+    height: inherit;
+    position: relative;
+    /* z-index: -1; */
+}
+
+.center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%)
+}
+
+.header-button a {
+    border: 2px solid white;
+    margin: 25px 10px;
+    padding: 5px 25px;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.header-button a:hover {
+    background-color: lightskyblue;
+    box-shadow: 0px 0px 4px 0px rgb(90, 64, 64, 0.9);
+    text-decoration: none;
+}
+
+.center-div p {
+    line-height: 19px;
+    color: white;
+    font-weight: bold;
+}
+
+.extra-header {
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.extra-div {
+    background: white;
+    padding: 50px;
+    border: medium none;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.extra-div:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px)
+}
+
+
+/* ******************extraheadrdiv ends&********* */
+
+
+/* ***************services offerdiv start******* */
+
+.service-offer {
+    background-color: rgb(255, 251, 251);
+    padding: 30px 10px;
+    margin-bottom: 30px;
+}
+
+.progress {
+    height: 0.6rem;
+}
+
+.project-done {
+    margin: 100px 0px;
+    padding-top: 30px;
+}
+
+
+/* ***************services offerdiv ends******* */
+
+
+/* *********************** pricing card section start*********** */
+
+.pricing {
+    margin: 50px;
+}
+
+.money {
+    line-height: 2px;
+    font-size: 40px;
+}
+
+.card {
+    transition: 0.6 ease;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 25px;
+    background-color: white;
+}
+
+.card-body {
+    line-height: 50px;
+    background-color: whitesmoke;
+}
+
+.card-body li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.card-footer a {
+    text-decoration: none;
+    border: 2px solid skyblue;
+    margin: 35px 10px;
+    padding: 5px 25px;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.card:hover .card-footer a:hover {
+    background-color: white;
+    box-shadow: 0px 0px 4px 0px rgb(90, 64, 64, 0.9);
+    text-decoration: none;
+    background-color: rgb(9, 151, 207);
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    transition: 0.6 ease;
+    box-shadow: 0px 0px 5px 0px rgb(21, 108, 179);
+}
+
+.card:hover .card-header,
+.card:hover .money {
+    color: green;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* *********************** pricing card section end*********** */
+
+
+/* ************************our happy clients start********************* */
+
+.ourhappyclients {
+    font-size: 30px;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0px;
+    /* background-color: khaki; */
+}
+
+.box {
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px 2px grey;
+    transition: 0.3 ease;
+    margin: 20px;
+}
+
+.carousel-indicators {
+    bottom: -60px;
+    color: maroon;
+    position: relative;
+}
+
+.carousel-indicators li {
+    color: red;
+    background-color: red;
+}
+
+.box a {
+    position: reative;
+}
+
+.box a img {
+    height: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.box:hover {
+    background-color: rgb(15, 150, 204);
+}
+
+.box h1 {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.box h2 {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+
+/* ************************our happy clients ends********************* */
+
+
+/* ************************contact us start********************* */
+
+.contenti {
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+    padding: 80px 0px;
+    position: absolute;
+    margin-bottom: 40px;
+}
+
+
+/* *************************contact us end********************* */
+
+
+/* .container { 
+                
+                margin-top: 1px;
+                margin-bottom: 20px;
+                /* padding-top: 00px; */
+
+
+}
+
+/* display: flex; */
+.news {
+    margin-top: -200px;
+    height: auto;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.footersection {
+    width: 100%;
+    height: 100vh;
+    margin-top: 1200px;
+    text-align: center;
+    justify-content: center;
+}
+#contactid {
+    height: auto;
+    margin-top: 50px;
+}
+#footerid {
+    margin-top: 200px;
+    height: auto;
+}
+#nws {
+    position: relative;
+}
+.tt {
+    /* margin-top: 200px; */
+    
+    height: auto;
+    /* position: relative; */
+}
+#contactid {
+    height: auto;
+    margin-top: 500px;
+    display: flexbox;
+}
+.time {
+    margin-top: 300px;
+    height: auto;
+    /* position: relative; */
+}
