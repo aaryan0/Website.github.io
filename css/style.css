@@ -146,7 +146,7 @@ i {
 }
 
 .card {
-    transition: 0.6 ease;
+    transition: 0.6s ease;
 }
 
 .card-header {
@@ -217,7 +217,7 @@ i {
     border-radius: 2px;
     border: 1px solid black;
     box-shadow: 0px 0px 4px 2px grey;
-    transition: 0.3 ease;
+    transition: 0.3s ease;
     margin: 20px;
 }
 
@@ -263,6 +263,8 @@ i {
 
 /* ************************contact us start********************* */
 
+
+/* 
 .contenti {
     margin-top: 150px;
     width: 100%;
@@ -270,7 +272,7 @@ i {
     padding: 80px 0px;
     position: absolute;
     margin-bottom: 40px;
-}
+} */
 
 
 /* *************************contact us end********************* */
@@ -283,9 +285,11 @@ i {
                 /* padding-top: 00px; */
 
 
-}
+/* } */
+
 
 /* display: flex; */
+
 .news {
     margin-top: -200px;
     height: auto;
@@ -293,6 +297,7 @@ i {
     width: 100%;
     height: 100vh;
 }
+
 .footersection {
     width: 100%;
     height: 100vh;
@@ -300,30 +305,93 @@ i {
     text-align: center;
     justify-content: center;
 }
+
 #contactid {
-    height: auto;
-    margin-top: 50px;
+    height: 100vh;
+    margin-top: -50px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 }
+
 #footerid {
     margin-top: 200px;
     height: auto;
+    display: flex;
+    float: bottom;
+    /* height: auto; */
 }
+
+
+/* 
 #nws {
     position: relative;
-}
+} */
+
+
+/* /*  */
+
 .tt {
-    /* margin-top: 200px; */
-    
-    height: auto;
-    /* position: relative; */
+    margin-top: 200px;
 }
-#contactid {
-    height: auto;
-    margin-top: 500px;
-    display: flexbox;
-}
+
+
+/* 
 .time {
     margin-top: 300px;
     height: auto;
-    /* position: relative; */
+} */
+
+body {
+    background-color: #9575CD
+}
+
+.scroll {
+    color: #fff;
+    margin-top: 100px
+}
+
+#toTopBtn {
+    position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: hsla(5, 76%, 62%, .8)
+}
+
+.js .cd-top--fade-out {
+    opacity: .5
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s, background-color .3s
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(5, 76%, 62%, .8);
+    background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+}
+
+.height {
+    height: 3000px
 }
